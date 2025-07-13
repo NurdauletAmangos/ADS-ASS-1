@@ -1,3 +1,9 @@
+/**
+ * Calculates the average of elements in an array.
+ * Time Complexity: O(n) - We iterate through the array once.
+ * Space Complexity: O(1) - We use constant extra space.
+ */
+
 public class Problem_2 {
     public static double calculateAverage(int n, int[] arr) {
         if (n <= 0) throw new IllegalArgumentException("Array must have at least one element");
@@ -9,3 +15,4 @@ public class Problem_2 {
         return (double) sum / n;
     }
 }
+
